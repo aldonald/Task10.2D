@@ -1,0 +1,61 @@
+body, html {
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+h1, h2, h3, h4 {
+  text-align: center;
+}
+
+.card {
+  margin: auto;
+}
+
+form {
+  margin: auto;
+  margin-top: 5%;
+}
+
+#createaccountbutton {
+  display: block;
+  margin: auto;
+  margin-right: 0;
+}
+
+.button-row {
+  margin-top: auto;
+}
+
+.login-container {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.container .row {
+  display: flex;
+  justify-content: center;
+}
+
+.googleSigninDiv {
+  text-align: -webkit-center;
+  align-content: center;
+  align-items: center;
+}
+
+#googleSigninButton {
+  height: 60px;
+  border: none;
+}
+
+#googleSigninButton:active
+{
+    content:url(../images/btn_google_signin_dark.png);
+}
+
+.modal-90w {
+  width: 90%!important;
+  max-width: none!important;
+}
